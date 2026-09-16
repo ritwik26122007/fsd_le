@@ -1,0 +1,80 @@
+<style>
+    body {
+        background-color: yellow;
+        text-align: center;
+    }
+
+    form {
+        display: inline-block;
+        text-align: left;
+    }
+
+    label {
+        display: inline-block;
+        width: 110px;
+    }
+
+    .form-row {
+        margin-bottom: 15px;
+    }
+</style>
+
+<marquee>
+    <h1>REGISTRATION FORM</h1>
+</marquee>
+
+<form>
+
+```
+<div class="form-row">
+    <label>Name:</label>
+    <input type="text" placeholder="Enter your name">
+</div>
+
+<div class="form-row">
+    <label>Select Date:</label>
+    <input type="date">
+</div>
+
+<div class="form-row">
+    <label>Address:</label>
+    <textarea rows="4" cols="30" placeholder="Enter your address"></textarea>
+</div>
+
+<div class="form-row">
+    <label>Language:</label>
+    <select>
+        <option>-- Select Language --</option>
+        <option>Hindi</option>
+        <option>English</option>
+        <option>Punjabi</option>
+        <option>Other</option>
+    </select>
+</div>
+
+<div class="form-row">
+    <label>Gender:</label>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <input type="radio" name="gender"> Other
+</div>
+
+<div class="form-row">
+    <label>Caste:</label>
+    <select>
+        <option>-- Select Caste --</option>
+        <option>General</option>
+        <option>OBC</option>
+        <option>SC</option>
+        <option>ST</option>
+        <option>Other</option>
+    </select>
+</div>
+
+<div class="form-row">
+    <label></label>
+    <input type="submit" value="Submit Form">
+</div>
+```
+
+</form>
